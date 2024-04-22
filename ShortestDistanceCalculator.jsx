@@ -57,7 +57,7 @@ const ShortestDistanceCalculator = () => {
   useEffect(() => {
     const { dist, constructPath } = floydWarshallWithPath(adjacencyMatrix);
     setShortestPaths(dist);
-    setConstructPath(() => constructPath); // Wrap the function to avoid re-creation on each render
+    setConstructPath(() => constructPath); 
   }, []);
 
   const calculateShortestDistanceAndPath = () => {
@@ -138,24 +138,23 @@ const styles = StyleSheet.create({
   picker: {
     width: '100%',
     marginBottom: 15,
-    backgroundColor: 'white', // Set the background color to white
+    backgroundColor: 'white', 
   },
   pickerItem: {
-    fontWeight: '900', // Super bold for picker items
+    fontWeight: '900', 
   },
   result: {
     marginTop: 20,
-    fontSize: 20, // Slightly increased font size
-    fontWeight: '900', // Super bold
+    fontSize: 20, 
+    fontWeight: '900', 
     textAlign: 'center',
     color: 'black'
   },
   footer: {
-    position: 'absolute', // Position the text absolutely
-    bottom: 10, // 10 pixels from the bottom
-    right: -110, // 10 pixels from the right
-    fontWeight: '900', // Super bold
-    //textAlign:'justify'
+    position: 'absolute', 
+    bottom: 10, 
+    right: -110, 
+    fontWeight: '900', 
   },
 });
 
