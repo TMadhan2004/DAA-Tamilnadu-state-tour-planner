@@ -75,10 +75,10 @@ const ShortestDistanceCalculator = () => {
 
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('./white.jpeg')} style={styles.backgroundImage}>
+      <ImageBackground source={require('./designer.jpeg')} style={styles.backgroundImage}>
         <View style={styles.overlay} />
         <View style={styles.content}>
-          <Text style={styles.title}>Shortest path between districts</Text>
+          <Text style={styles.title}>Tamilnadu State Tour Planner : Optimal Route for Complete Coverage</Text>
           <Picker
             selectedValue={startDistrict}
             style={styles.picker}
@@ -102,7 +102,7 @@ const ShortestDistanceCalculator = () => {
           <Button title="Calculate" onPress={calculateShortestDistanceAndPath} />
           <Text style={styles.result}>{result.distance}</Text>
           <Text style={styles.result}>{result.path}</Text>
-          <Text style={styles.footer}>                               </Text>
+          <Text style={styles.footer}>Done by Madhan.T, Kirthick Kumar.S                                </Text>
         </View>
       </ImageBackground>
     </View>
