@@ -5,7 +5,6 @@ import { floydWarshallWithPath } from './floydWarshall';
 
 const districts = ["Kanniya kumari", "Tirunelveli", "Tenkasi", "Thoothukudi", "Virudhunagar", "Ramanathapuram","Theni","Madurai","Sivagangai","Nagaipattinam","Tiruvarur","Pudukottai","Trichy","Dindigul","Tiruppur","Coimbatore","Karur","Niligiris","Erode","Namakkal","Salem","Perambalur","Ariyalur","Tanjore","Mayiladuthurai","Cuddalore","Villupuram","Kallakurichi","Dharmapuri","Tiruvannamalai","Chengalpattu","Krishnagiri","Tirupathur","Vellore","Ranipet","Kancheepuram","Tiruvarur","Chennai"];
 
-// Replace the following matrix with your actual 38x38 adjacency matrix
 const adjacencyMatrix = [
   [0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
   [84,0,60,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
